@@ -29,7 +29,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
@@ -40,6 +40,7 @@ section#login {
 
     transition: width .2s, height .2s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -79,10 +80,10 @@ div.campo > input {
     background-color: #67dbd7;
     font-size: 1em;
     height: 100%;
-    transform: translate(20px, -42px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translate(20px, -42px);
 }
 
 div.campo > input:focus-within {
