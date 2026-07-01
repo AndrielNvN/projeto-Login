@@ -29,7 +29,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+    display: block;
     overflow: hidden;
 
     background-color: white;
@@ -98,6 +98,7 @@ form > div.campo {
     height: 42px;
     border-radius: 8px;
     margin: 5px 0px;
+    padding-left: 50px;
 }
 
 form > input[type=submit] {
